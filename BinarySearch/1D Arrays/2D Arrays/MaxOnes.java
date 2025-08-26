@@ -1,3 +1,7 @@
+//You have been given a non-empty grid ‘mat’ with 'n' rows and 'm' columns consisting of only 0s and 1s. 
+//All the rows are sorted in ascending order.
+//Your task is to find the index of the row with the maximum number of ones.
+
 import java.util.ArrayList;
 
 public class MaxOnes {
