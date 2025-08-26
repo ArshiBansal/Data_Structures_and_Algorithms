@@ -10,6 +10,7 @@ public class FloorCeil {
 
             if (arr[mid] == x) {
                 return arr[mid]; // exact match is the floor
+       
             } else if (arr[mid] < x) {
                 ans = arr[mid];  // possible floor
                 left = mid + 1;  // search right half
