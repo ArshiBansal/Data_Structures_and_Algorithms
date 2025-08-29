@@ -1,3 +1,5 @@
+//Number of Distinct Substrings in a String
+
 #include <bits/stdc++.h>
 using namespace std;
 

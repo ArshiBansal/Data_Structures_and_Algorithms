@@ -1,3 +1,5 @@
+//Longest String with All Prefixes
+
 import java.util.*;
 
 class TrieNode {
@@ -18,7 +20,7 @@ class Trie {
     }
 }
 
-public class LongestString {
+public class Main {
     static String ans = "";
     
     public static void dfs(TrieNode node, String cur) {
