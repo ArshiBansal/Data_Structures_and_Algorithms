@@ -29,3 +29,34 @@ int main() {
     }
     return 0;
 }
+
+//Adjacency List Representation
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+    int V, E;
+    cout << "Enter number of vertices and edges: ";
+    cin >> V >> E;
+
+    vector<int> adj[V]; // adjacency list
+
+    cout << "Enter edges (u v):\n";
+    for (int i = 0; i < E; i++) {
+        int u, v;
+        cin >> u >> v;
+        adj[u].push_back(v);
+        adj[v].push_back(u); // for undirected graph
+    }
+
+    cout << "Adjacency List:\n";
+    for (int i = 0; i < V; i++) {
+        cout << i << " -> ";
+        for (int v : adj[i])
+            cout << v << " ";
+        cout << endl;
+    }
+    return 0;
+}

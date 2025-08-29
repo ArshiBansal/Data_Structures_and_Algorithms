@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class BFS {
+public class bfs {
     public static void bfs(int start, ArrayList<ArrayList<Integer>> adj, int V) {
         boolean[] visited = new boolean[V];
         Queue<Integer> q = new LinkedList<>();
